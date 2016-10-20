@@ -35,7 +35,7 @@
                     "type": "web",
                     "endpoint": {
                         "type": "tcp",
-                        "port": 8080
+                        "port": "$PORT"
                     },
                     "paths": {
                         "/": {
@@ -45,6 +45,13 @@
                         "ws": {
                             "type": "websocket"
                         }
+                    }
+                },
+                {
+                    "type": "websocket",
+                    "endpoint": {
+                        "type": "tcp",
+                        "port": 9000
                     }
                 }
             ]
@@ -66,9 +73,9 @@
                         "endpoint": {
                             "type": "tcp",
                             "host": "127.0.0.1",
-                            "port": 8080
+                            "port": 9000
                         },
-                        "url": "ws://127.0.0.1:8080/ws"
+                        "url": "ws://127.0.0.1:9000/ws"
                     }
                 }
             ]
