@@ -1,5 +1,7 @@
 # Crossbar hello:python to Heroku
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 This demo application shows it's possible to run the Crossbar router through Heroku.
 
 See http://crossbar.io/docs/Setup-on-Heroku/ for more details.
